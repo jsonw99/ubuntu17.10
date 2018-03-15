@@ -55,3 +55,15 @@ sudo growpart /dev/xvdf 1
 lsblk
 sudo resize2fs /dev/xvdf1
 ```
+
+#### 9. Copy large file or directory
+```bash
+rsync --info=progress2 sourceFile destinationFile
+rsync -r --info=progress2 sourceFolder/ destinationFolder/
+
+```
+
+#### 10. Check directory size
+```bash
+du -hs targetFolder
+```
