@@ -67,3 +67,6 @@ rsync -r --info=progress2 sourceFolder/ destinationFolder/
 ```bash
 du -hs targetFolder
 ```
+
+### 11. echo
+Just like "print" in Linux shell.
